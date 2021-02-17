@@ -25,6 +25,6 @@ public class Score implements Drawable{
 		// TODO Auto-generated method stub
 		g.setColor(Color.WHITE);
 		g.setFont(new Font("Arial",Font.BOLD,20));
-		g.drawString(Integer.toString(score), x, y);
+		g.drawString("Score: "+Integer.toString(score), x, y);
 	}
 }
